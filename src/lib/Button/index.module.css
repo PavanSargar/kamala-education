@@ -1,0 +1,25 @@
+.button {
+  background-color: var(--color-navy);
+  border: 2px solid var(--color-navy);
+  color: var(--color-white);
+  border-radius: 0.5rem;
+  padding: 0.875rem 1.125rem;
+  height: 3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outline {
+  background-color: var(--color-white);
+  color: var(--color-navy);
+}
+
+@media screen and (max-width: 576px) {
+  .button {
+    padding: 0.6rem 1rem !important;
+    height: 2.5rem;
+  }
+
+}

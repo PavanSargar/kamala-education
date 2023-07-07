@@ -1,0 +1,68 @@
+.container {
+  overflow: hidden;
+  padding-left: 7.5rem;
+}
+.tab {
+  border: none;
+  outline: none;
+
+  background-color: transparent;
+  padding: 0.5rem 1.3125rem !important;
+  border-radius: 0.3125rem;
+
+  font-size: 18px;
+}
+
+.tab.active {
+  background-color: var(--color-light-blue);
+}
+
+.card {
+  border-radius: 1.5rem;
+  border: 1px solid var(--color-ivory);
+  background: var(--color-white);
+  box-shadow: 0px 8px 15px 0px rgba(16, 24, 40, 0.1);
+  padding: 1.25rem;
+  width: 24rem;
+}
+
+.scroll-btn > button {
+  all: unset;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: underline;
+
+  color: var(--color-navy);
+
+  margin-right: 7.5rem;
+}
+
+.tabs.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .tabs.desktop {
+    display: none;
+  }
+  .tabs.mobile {
+    display: block !important;
+  }
+
+  .container {
+    padding-left: 4rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .card {
+    width: auto;
+    max-width: 24rem;
+  }
+}

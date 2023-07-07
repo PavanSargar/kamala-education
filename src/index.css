@@ -1,0 +1,167 @@
+:root {
+  --color-navy: #183883;
+  --color-black: #000000;
+  --color-light-black: #333333;
+  --color-sky-blue: #007cc2;
+  --color-light-blue: #76c5f0;
+  --color-grey: #aeaeae;
+  --color-ivory: #f0f0f0;
+  --color-red: #c90c00;
+  --color-yellow: #f4c407;
+  --color-light-yellow: #f9e183;
+  --color-white: #ffffff;
+
+  --font-inter: "Inter", sans-serif;
+}
+
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+  font-family: var(--font-inter);
+}
+
+.h-1,
+.h-2,
+.h-3 {
+  font-weight: bolder;
+}
+.h-1 {
+  font-size: 54px;
+}
+.h-2 {
+  font-size: 42px;
+}
+.h-3 {
+  font-size: 32px;
+}
+
+.s-1,
+.s-2 {
+  font-weight: 500;
+}
+.s-1 {
+  font-size: 16px;
+}
+.s-2 {
+  font-size: 14px;
+}
+
+.p-1 {
+  font-size: 18px;
+}
+.p-2 {
+  font-size: 16px;
+}
+.p-3 {
+  font-size: 14px;
+}
+.p-4 {
+  font-size: 12px;
+}
+.p-5 {
+  font-size: 10px;
+}
+
+.caption {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.b-1,
+.b-2,
+.b-3 {
+  font-weight: bold;
+}
+.b-1 {
+  font-size: 20px;
+}
+.b-2 {
+  font-size: 16px;
+}
+.b-3 {
+  font-size: 14px;
+}
+
+.section-padding {
+  padding: 1.25rem 7.5rem;
+}
+.padding-left {
+  padding-left: 7.5rem;
+}
+.section-margin {
+  margin: 4rem auto;
+}
+
+.navy {
+  color: var(--color-navy);
+}
+.light-black {
+  color: var(--color-light-black);
+}
+
+@media screen and (max-width: 700px) {
+  .section-padding {
+    padding: 2rem 4rem;
+  }
+  .padding-left {
+    padding-left: 4rem;
+  }
+}
+
+@media screen and (max-with: 550px) {
+  .section-padding {
+    padding: 2rem;
+  }
+  .padding-left {
+    padding-left: 0rem !important;
+  }
+}
+
+/* disable default */
+.p-1,
+.p-2,
+.p-3,
+.p-4,
+.p-5 {
+  padding: 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .h-1 {
+    font-size: 48px;
+  }
+  .h-2 {
+    font-size: 36px;
+  }
+
+  .h-3 {
+    font-size: 26px;
+  }
+
+  .b-1 {
+    font-size: 18px;
+  }
+  .b-2 {
+    font-size: 14px;
+  }
+  .b-3 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .h-1 {
+    font-size: 42px;
+  }
+  .h-2 {
+    font-size: 30px;
+  }
+
+  .h-3 {
+    font-size: 20px;
+  }
+}
