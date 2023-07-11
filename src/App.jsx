@@ -1,8 +1,13 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar";
+
+// partials
+import Navbar from "./components/partials/Navbar";
+import Footer from "./components/partials/Footer";
+
+// pages
 import Home from "./pages/Home";
-import Footer from "./components/Footer";
+import About from "./pages/About";
 
 const App = () => {
   return (
@@ -11,6 +16,7 @@ const App = () => {
       <div style={{ height: "100px" }}></div>
       <Routes>
         <Route path="/" element={<Home animation="fade-down" />} />
+        <Route path="/about" element={<About animation="fade-down" />} />
       </Routes>
       <Footer />
     </>

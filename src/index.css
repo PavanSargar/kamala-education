@@ -22,11 +22,14 @@ body,
   scroll-behavior: smooth;
 
   font-family: var(--font-inter);
+
+  /* overflow-x: hidden; */
 }
 
 .h-1,
 .h-2,
-.h-3 {
+.h-3,
+.h-5 {
   font-weight: bolder;
 }
 .h-1 {
@@ -37,6 +40,9 @@ body,
 }
 .h-3 {
   font-size: 32px;
+}
+.h-5 {
+  font-size: 22px;
 }
 
 .s-1,
@@ -50,8 +56,14 @@ body,
   font-size: 14px;
 }
 
+.t-1 {
+  font-size: 18px !important;
+}
+.t-2 {
+  font-size: 16px !important;
+}
 .p-1 {
-  font-size: 18px;
+  font-size: 18px !important;
 }
 .p-2 {
   font-size: 16px;
@@ -102,6 +114,12 @@ body,
 .light-black {
   color: var(--color-light-black);
 }
+.bg-light-blue {
+  background-color: var(--color-light-blue);
+}
+.light-blue {
+  color: var(--color-light-blue);
+}
 
 @media screen and (max-width: 700px) {
   .section-padding {
@@ -128,6 +146,13 @@ body,
 .p-4,
 .p-5 {
   padding: 0 !important;
+}
+.form-select {
+  width: 100% !important;
+  box-shadow: none !important;
+}
+a {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {

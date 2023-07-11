@@ -1,0 +1,33 @@
+.input label {
+  color: var(--color-light-black);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.input input,
+.input select,
+.input textarea {
+  outline: none;
+  padding: 14px 18px;
+  border-radius: 10px;
+  border: 1px solid var(--color-sky-blue);
+  background: var(--color-white);
+  color: var(--color-black);
+
+  width: 100%;
+}
+
+.input input::placeholder,
+.input textarea::placeholder {
+  font-size: 16px;
+  color: var(--color-grey);
+}
+
+.input select::-ms-value {
+    color: var(--color-grey);
+}
+
+.input .date {
+  width: 100%;
+}

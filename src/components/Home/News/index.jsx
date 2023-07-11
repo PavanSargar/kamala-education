@@ -109,8 +109,8 @@ const News = () => {
             spaceBetween: 200,
           },
           1700: {
-            slidesPerView: 5,
-            spaceBetween: 250,
+            slidesPerView: 4,
+            spaceBetween: 50,
           },
         }}
         onSlideChange={() => console.log("slide change")}

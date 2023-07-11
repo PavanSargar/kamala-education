@@ -1,0 +1,33 @@
+.img img {
+  border-radius: 24px;
+  max-width: 386px;
+  height: 100%;
+  object-fit: cover;
+  height: 600px;
+  background: transparent;
+}
+
+.img {
+  position: relative;
+}
+
+.description {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 5px;
+
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+
+  background: #76c5f099;
+  backdrop-filter: blur(10px);
+}
+
+@media screen and (max-width: 576px) {
+  .images img {
+    width: 100%;
+    height: auto;
+  }
+}

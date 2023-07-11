@@ -3,7 +3,8 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 
-import LOGO from "../../assets/logo/logo.svg";
+import LOGO from "../../../assets/logo/logo.svg";
+
 import { Image } from "react-bootstrap";
 
 import styles from "./index.module.css";

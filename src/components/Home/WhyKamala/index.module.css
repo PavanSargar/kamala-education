@@ -1,0 +1,15 @@
+.card {
+  max-width: 380px;
+  border-radius: 24px;
+  background: var(--pure-horizon, #fff);
+  box-shadow: 0px 8px 20px 0px rgba(16, 24, 40, 0.1);
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: var(--color-light-blue);
+    position: relative;
+    /* left: -1rem; */
+}

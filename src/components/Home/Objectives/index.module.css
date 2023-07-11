@@ -1,0 +1,29 @@
+.container {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url("../../../assets/objectives/banner.png"),
+    lightgray 50% / cover no-repeat;
+
+  height: 90vh;
+}
+
+.container img {
+  height: inherit;
+  width: auto;
+}
+
+.heading {
+  position: absolute;
+}
+
+@media screen and (max-width: 992px) {
+  .container img {
+    width: 100%;
+  }
+  .container {
+    height: auto;
+  }
+}

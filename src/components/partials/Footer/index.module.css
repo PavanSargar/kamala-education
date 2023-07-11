@@ -1,0 +1,11 @@
+.container img {
+  height: 50px;
+  width: 50px;
+}
+
+.line {
+  height: 2px;
+  background-color: var(--color-black);
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}

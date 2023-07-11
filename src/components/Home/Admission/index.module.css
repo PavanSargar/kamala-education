@@ -1,0 +1,14 @@
+@media screen and (max-width: 992px) {
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .container {
+    justify-content: space-around !important;
+    border: 1px solid red;
+    gap: 0;
+  }
+}

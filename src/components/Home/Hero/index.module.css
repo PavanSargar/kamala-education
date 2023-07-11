@@ -22,7 +22,7 @@
   width: auto;
   position: relative;
   /* right: 0ex; */
-  left: 1ex;
+  left: 3ex;
 }
 
 @media screen and (max-width: 992px) {
