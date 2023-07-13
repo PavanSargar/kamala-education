@@ -30,7 +30,7 @@ const Employees = () => {
         </div>
       </div>
 
-      <div className="mb-5">
+      <div className="">
         <h3 className="h-5 mb-4 text-center">Department of Chemistry</h3>
 
         <div className="d-flex align-items-center justify-content-around flex-wrap">

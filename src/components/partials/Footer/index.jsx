@@ -44,19 +44,19 @@ const Footer = () => {
           <h6 className="p-2 ps-0 fw-medium">Emails</h6>
 
           <div className="d-flex flex-column gap-2">
-            <Link className="text-decoartion-none text-dark">
+            <Link className="text-decoration-none text-dark">
               name@email.com
             </Link>
-            <Link className="text-decoartion-none text-dark">
+            <Link className="text-decoration-none text-dark">
               name@email.com
             </Link>
-            <Link className="text-decoartion-none text-dark">
+            <Link className="text-decoration-none text-dark">
               name@email.com
             </Link>
-            <Link className="text-decoartion-none text-dark">
+            <Link className="text-decoration-none text-dark">
               name@email.com
             </Link>
-            <Link className="text-decoartion-none text-dark">
+            <Link className="text-decoration-none text-dark">
               name@email.com
             </Link>
           </div>

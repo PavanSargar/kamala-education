@@ -1,0 +1,9 @@
+.hr div {
+  width: 50%;
+  height: 2px;
+  background-color: var(--color-grey);
+}
+.details p {
+  margin: 0;
+  margin-top: 0.6rem;
+}

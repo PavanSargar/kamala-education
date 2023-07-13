@@ -12,20 +12,25 @@
   padding: 14px 18px;
   border-radius: 10px;
   border: 1px solid var(--color-sky-blue);
-  background: var(--color-white);
+  /* background: var(--color-white); */
   color: var(--color-black);
 
   width: 100%;
+}
+
+.primary, .input select {
+  border: 1px solid var(--soft-whisper, #aeaeae) !important;
+  /* color: #aeaeae; */
+}
+
+.input select option {
+  color: black;
 }
 
 .input input::placeholder,
 .input textarea::placeholder {
   font-size: 16px;
   color: var(--color-grey);
-}
-
-.input select::-ms-value {
-    color: var(--color-grey);
 }
 
 .input .date {

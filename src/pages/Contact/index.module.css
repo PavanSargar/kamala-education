@@ -1,0 +1,11 @@
+.form {
+  border-radius: 24px;
+  padding: 20px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
